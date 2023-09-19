@@ -1,0 +1,23 @@
+{
+  "name": "react-collections",
+  "version": "1.0.0",
+  "description": "collections for react ui and react hook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevenLeeTW/react-collections.git"
+  },
+  "keywords": [
+    "react",
+    "ui/hooks/storybook"
+  ],
+  "author": "CheJuLee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StevenLeeTW/react-collections/issues"
+  },
+  "homepage": "https://github.com/StevenLeeTW/react-collections#readme"
+}
