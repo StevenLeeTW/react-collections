@@ -1,6 +1,16 @@
+
 .textarea-container {
   display: flex;
   flex-direction: column;
+  .simplebar-track.simplebar-vertical > .simplebar-scrollbar {
+    &:before {
+      width: 4px;
+      right: 2px;
+      left: 5px;
+      border-radius: 2px;
+      background-color: #959393;
+    }
+  }
 }
 
 .textarea-label {
@@ -13,7 +23,7 @@
 .textarea-div {
   font-size: 16px;
   line-height: 24px;
-  min-height: 180px;
+  min-height: 154px;
   display: block;
   resize: none;
   outline: none;

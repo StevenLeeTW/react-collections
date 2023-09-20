@@ -1,6 +1,7 @@
 import React, { FC, ChangeEvent, useRef, CompositionEvent, useCallback } from "react";
 import { checkStrLengthOfLimit } from "../../utils/input";
 import "./index.css";
+import "simplebar-react/dist/simplebar.min.css";
 import SimpleBar from "simplebar-react";
 
 const dataTestId = "data-testid";
@@ -94,7 +95,7 @@ const TextArea: FC<TextAreaProps> = ({
       </label>
       <SimpleBar
         className={`texaarea-simple-bar ${Boolean(isError) ? "error" : ""}`}
-        style={{ maxHeight: 180 }}
+        style={{ maxHeight: 170 }}
       >
         <div
           className="textarea-div"
