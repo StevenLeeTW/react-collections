@@ -13,6 +13,6 @@ npm i && npm run storybook
 ```
 
 ## techs
-frontend: storybooks/react/css/html/react-hooks
+frontend: storybooks/react/css/html/react-hooks  
 ci/cd: github-action/github-page
 
