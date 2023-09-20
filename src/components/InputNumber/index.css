@@ -1,0 +1,22 @@
+.input-number {
+  outline: none;
+  border: none;
+  width: 100%;
+  color: #000;
+  font-size: 16px;
+  line-height: 24px;
+  ::placeholder {
+    color: #757575;
+  }
+  
+  /* turn off changing color while using chrome autofill */
+  ::-webkit-autofill,
+  ::-webkit-autofill:hover,
+  ::-webkit-autofill:focus,
+  ::-webkit-autofill:active {
+    -webkit-background-clip: text;
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #000;
+  }
+}
+

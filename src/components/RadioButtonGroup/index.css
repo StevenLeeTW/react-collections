@@ -1,0 +1,50 @@
+/* const RadioButton = styled.div<{ checked: boolean; disabled: boolean }>`
+
+  border: 1px solid ${({ theme, checked }) => (checked ? theme.palette.F200 : theme.palette.N500)};
+  > svg:first-child {
+    margin-right: ${({ theme }) => theme.spacing.s3};
+  }
+`; */
+
+.radio-button {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  padding: 16px;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #0b010e;
+  border-radius: 12px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.radio-button.checked {
+  background-color: #fff;
+  border: 1px solid #b56feb;
+}
+
+.radio-button.disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.circle-dot {
+  border: 1px solid #b56feb;
+  background-color: #b56feb;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.circle {
+  border: 1px solid #000;
+  color: #000;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
