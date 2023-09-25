@@ -56,7 +56,7 @@ const TextArea: FC<TextAreaProps> = ({
     // explicitly cast the event.target to HTMLInputElement
     const eventValue = (event.target as HTMLDivElement).textContent as string;
 
-    // don't call onChange as is onComposition
+    // don't call onChange as isOnComposition 
     if (!isOnComposition.current && typeof onChange === "function") {
       typeof onError === "function" &&
         onError(checkStrLengthOfLimit(eventValue, maxLength, minLength));
