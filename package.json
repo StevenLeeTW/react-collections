@@ -1,6 +1,6 @@
 {
   "name": "@ultramancc/react-collections",
-  "version": "1.0.1",
+  "version": "1.0.2-0",
   "description": "collections for react ui and react hook",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
@@ -11,7 +11,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "build": "rollup -c",
-    "publish:prod": "npm publish"
+    "publish:prod": "npx standard-version && npm publish",
+    "publish:rc": "npx standard-version --prerelease && npm publish"
   },
   "repository": {
     "type": "git",
