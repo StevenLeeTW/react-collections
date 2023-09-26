@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "build": "rollup -c",
+    "build": "rm -rf ./lib && rollup -c",
     "tag": "git push --follow-tags origin main",
     "publish:prod": "npx standard-version && npm publish",
     "publish:rc": "npx standard-version --prerelease rc && npm publish"
