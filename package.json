@@ -1,11 +1,10 @@
 {
   "name": "@ultramancc/react-collections",
-  "version": "1.0.3-rc.3",
+  "version": "1.0.3-rc.4",
   "description": "collections for react ui and react hook",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
   "types": "lib/index.d.ts",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
