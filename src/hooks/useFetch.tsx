@@ -1,20 +1,20 @@
 import { useEffect, useRef, useState } from 'react'
 import useLayoutEffect from './useLayoutEffect'
 
-interface OptionProps<J> {
+export interface OptionProps<J> {
   ltm?: number
   defaultData?: J
 }
 
-interface FetchResProps<J> {
+export interface FetchResProps<J> {
   data?: J
   isError: boolean
   isLoading: boolean
 }
 
-type FetchProps = ([...params]?: unknown[]) => Promise<{ data?: unknown }>
+export type FetchProps = ([...params]?: unknown[]) => Promise<unknown>
 
-const cacheData: Record<string, { res?: Promise<{ data?: unknown }>; ltm?: number } | undefined> =
+const cacheData: Record<string, { res?: Promise<unknown>; ltm?: number } | undefined> =
   {}
 
 const getTimeNow = () => new Date().getTime()
