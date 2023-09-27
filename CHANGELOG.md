@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/StevenLeeTW/react-collections/compare/v1.0.3-rc.12...v1.1.0) (2023-09-27)
+
+
+### Features
+
+* **useFetch:** small refine useFetch and add stories of useFetch ([bfb3ae1](https://github.com/StevenLeeTW/react-collections/commit/bfb3ae15aa832a5c50c6b2e1f5a39904e9e7ba55))
+
 ### [1.0.3-rc.12](https://github.com/StevenLeeTW/react-collections/compare/v1.0.3-rc.11...v1.0.3-rc.12) (2023-09-26)
 
 ### [1.0.3-rc.11](https://github.com/StevenLeeTW/react-collections/compare/v1.0.3-rc.10...v1.0.3-rc.11) (2023-09-26)
