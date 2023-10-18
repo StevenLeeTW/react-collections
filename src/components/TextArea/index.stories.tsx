@@ -106,6 +106,6 @@ export const Default: Story = {
     value: "",
     minLength: 0,
     maxLength: 5,
-    placeHolder: "plz typing something",
+    placeHolder: "plz type something",
   },
 };

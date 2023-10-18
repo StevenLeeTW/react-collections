@@ -35,14 +35,14 @@ const InputText: FC<InputTextProps> = ({
   const handleChange = (
     event: ChangeEvent<HTMLInputElement> | CompositionEvent<HTMLInputElement>
   ) => {
-    // set error equate false as any typing
-    typeof onError === 'function' && onError(false)
+    // set error equate false as any type
+    typeof onError === "function" && onError(false);
     // explicitly cast the event.target to HTMLInputElement
-    const eventValue: string = (event.target as HTMLInputElement).value
+    const eventValue: string = (event.target as HTMLInputElement).value;
 
     // don't call onChange as is onComposition
-    if (!isOnComposition.current && typeof onChange === 'function') {
-      onChange(eventValue)
+    if (!isOnComposition.current && typeof onChange === "function") {
+      onChange(eventValue);
     }
   }
 
